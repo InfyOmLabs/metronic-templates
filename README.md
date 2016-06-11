@@ -21,3 +21,13 @@ Metronic Theme templates for InfyOm Laravel Generator
 5. Run Infyom publish layout command
  
         php artisan infyom.publish:layout
+
+6. Check following files in `resources/views/`,
+
+ - `app/layouts/app.blade.php`
+ - `auth/login.blade.php`
+ - `auth/register.blade.php`
+ - `auth/passwords/email.blade.php`
+ - `auth/passwords/reset.blade.php`
+ 
+ and find `path-to-metronic` and replace this with your Metronic theme's `theme/assets` folder with following folder. 
