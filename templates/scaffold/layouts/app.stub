@@ -61,7 +61,7 @@
 
 <body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid page-content-white">
 @if (!Auth::guest())
-        <!-- BEGIN HEADER -->
+<!-- BEGIN HEADER -->
 <div class="page-header navbar navbar-fixed-top">
     <!-- BEGIN HEADER INNER -->
     <div class="page-header-inner ">
@@ -120,8 +120,7 @@
 <div class="page-container">
     <!-- BEGIN SIDEBAR -->
     @include('layouts.sidebar')
-            <!-- BEGIN CONTENT -->
-    {!!--    @if (!Auth::guest())--!!}
+    <!-- BEGIN CONTENT -->
     <div class="page-content-wrapper">
         <!-- BEGIN CONTENT BODY -->
         <div class="page-content">
@@ -200,7 +199,6 @@
     @include('layouts.sidebar')
             <!-- END SIDEBAR -->
     <!-- BEGIN CONTENT -->
-    {!!--    @if (!Auth::guest())--!!}
     <div class="page-content-wrapper">
         <!-- BEGIN CONTENT BODY -->
         <div class="page-content">
