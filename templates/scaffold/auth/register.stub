@@ -89,8 +89,7 @@
             <button type="submit" class="btn btn red btn-block btn-flat">Register</button>
         </div>
         <!-- /.col -->
-</div>
-</form>
+    </form>
 <!-- END REGISTRATION FORM -->
 </div>
 <div class="copyright hide"> 2014 © Metronic. Admin Dashboard Template.</div>
