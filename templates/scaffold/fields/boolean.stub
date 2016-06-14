@@ -1,0 +1,7 @@
+<div class="form-group col-sm-2">
+    {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}
+    <label class="checkbox-inline">
+   {!! Form::checkbox('$FIELD_NAME$', 1, true, ['class' => 'icheckbox_minimal-blue checkbox']) !!}
+   $FIELD_NAME_TITLE$
+    </label>
+</div>
